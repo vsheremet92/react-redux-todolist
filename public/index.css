@@ -1,0 +1,53 @@
+#app {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+h5 {
+    -webkit-margin-before: 8px;
+    -webkit-margin-after: 8px;
+}
+
+.add-todo-form {
+    background-color: #ececec;
+    width: 300px;
+    padding: 8px;
+}
+
+.add-todo-form_submit {
+    width: 120px;
+    height: 30px;
+    background-color: #ececec;
+}
+
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.todo-item {
+    flex: 1 0 20%;
+    margin: 10px;
+    background-color: #ececec;
+    text-align: justify;
+    padding: 8px;
+}
+
+.todo-item_remove {
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.filter {
+    float: left;
+    width: 180px;
+    height: 400px;
+    padding: 8px;
+    margin-right: 15px;
+    background-color: #ececec;
+}
